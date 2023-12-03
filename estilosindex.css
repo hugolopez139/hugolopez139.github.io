@@ -1,0 +1,140 @@
+h1 {
+    text-align: center;
+    margin-top: 5%;
+}
+
+body {
+    background-image: url(img/fondo.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content {
+    min-height: 80px;
+    background: linear-gradient(
+        90deg,
+        rgb(0, 0, 0) 0%,
+        rgb(80,80,80) 70%
+    );
+    position: sticky;
+}
+
+.menu {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 25px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #FFFFFF;
+    display: block;
+    font-weight: bold;
+}
+
+.menu .navbar ul li a:hover {
+    color: pink;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+header {
+    position: sticky;
+    top: 0%;
+    z-index: 100;
+}
+
+div.sidebar{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: linear-gradient(
+        0deg,
+        rgb(80,80,80) 0%,
+        rgb(0, 0, 0) 70%
+    );
+    color: #FFFFFF;
+    margin-top: 100px;
+    width: 200px;
+    height: 500px;
+    float: left;
+}
+
+.sidebar ul li{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid;
+    margin-top: 30px;
+}
+
+.yo {
+    width: 75px;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+footer {
+    text-align: center;
+    clear: both;
+    background: linear-gradient(
+        90deg,
+        rgb(80,80,80) 0%,
+        rgb(0, 0, 0) 70%
+    );
+    color: #FFFFFF;
+    padding: 30px;
+    bottom: 0%;
+}
+
+#insta {
+    color: pink;
+}
+
+#insta:hover{
+    text-decoration: underline;
+}

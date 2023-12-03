@@ -1,13 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hugo López de Mota Díaz</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hugo López de Mota Díaz</title>
+  <link rel="stylesheet" href="estilosindex.css"/>
+  <link rel="stylesheet" href="index.css"/>
 </head>
+
 <body>
-    <a href="CV/cv.html">Currículum</a>
-    <a href="formulario/formulario.html"></a>
-    hola
+  <header>
+    <div class="content">
+      <div class="menu container">
+        <a href="index.html" class="logo">Inicio</a>
+        <input type="checkbox" id="menu" />
+        <nav class="navbar">
+          <ul id="yo">
+            <li><a href="cv.html">Currículum</a></li>
+            <li><a href="formulario.html">Formulario</a></li>
+            <li><a href="trabajo.html">Sobre el trabajo</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <div class="sidebar">
+    <img class="yo" src="img/IMG-20211224-WA0029.jpg" alt="" />
+    <ul>
+      <li>Hugo López de Mota Díaz</li>
+      <li>Edad: 19 años</li>
+      <li>Soltero</li>
+      <li>Rivas-Vaciamadrid</li>
+    </ul>
+  </div>
+
+  <main>
+    <fieldset class="caracteristicas">
+      <legend><h2>Características</h2></legend>
+      <article>
+        <h4>Cariñoso</h4>
+        <p>Soy muy cercano a las personas y lo suelo demostrar mas con contacto físico</p>
+      </article>
+      <article>
+        <h4>Perezoso</h4>
+        <p>Me da pereza la mayoria de cosas, desde estudiar hasta levantarme de la cama a desayunar por las mañanas</p>
+      </article>
+      <br>
+      <article>
+        <h4>Soy bueno en la mayoria de videojuegos</h4>
+        <p>La verdad es que jugar a videojuegos es de lo poco que se me da estupendamente, cualquier juego en el cual juegue dos o tres partidas aprendo muy rapido, y ya a la semana se puede decir que juego bien</p>
+      </article>
+    </fieldset>
+
+    <section class="appweb">
+      <article class="yt">
+        <a href="https://www.youtube.com/" target="_blank"><img src="img/yt.webp" alt="yt"></a>
+        <p>La aplicacion que mas uso es You<span style="color: red;">tube</span></p>
+      </article>
+    </section>
+  
+    <section id="cosas">
+      <h2 class="cosas">Cosas que no dejaria de hacer</h2>
+      <div class="contenedor">
+        <div class="trae">
+          <h3 class="basket">Jugar al basket</h3>
+          <h3 class="musica">Escuchar música</h3>
+           <img src="img/trae.jpg" alt="trae" />
+        </div>
+        <div class="spoty">
+          <div>
+            <p class="monarca"><a href="https://open.spotify.com/intl-es/album/6N1iKBKY8zRGImxADk2IdN"
+                target="_blank"><img src="img/monarca.jpg" alt="monarca" /></a></p>
+          </div>
+          <div>
+            <p class="meli"><a href="https://open.spotify.com/intl-es/album/3euz4vS7ezKGnNSwgyvKcd" target="_blank"><img
+                  src="img/ariana.jpeg" alt="ariana" /></a></p>
+          </div>
+          <div>
+            <p class="micro"><a href="https://open.spotify.com/intl-es/album/0QLDQG7Jx78rEUDW03IhHC"
+                target="_blank"><img src="img/microdosis.jpg" alt="microdosis" /></a></p>
+          </div>
+          <div>
+            <p class="bad"><a href="https://open.spotify.com/intl-es/album/4FftCsAcXXD1nFO9RFUNFO" target="_blank"><img
+                  src="img/badbo.jpg" alt="badbo" /></a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Hecho por <a id="insta" href="https://www.instagram.com/huugoo.lopeezz/" target="_blank">@huugoo.lopeezz</a>
+  </footer>
 </body>
+
 </html>

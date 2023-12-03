@@ -1,0 +1,38 @@
+h2{
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+.formulario {
+    margin-top: 100px;
+    margin-left: 500px;
+}
+
+.registro{
+    border: 2px solid black;
+    width: 1000px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(181, 183, 184);
+}
+
+.registro ul li{
+    margin-left: 10px;
+}
+
+.recordar {
+    margin: 5px 0 20px 5px;
+    color: blue;
+    cursor: pointer;
+}
+.recordar:hover {
+    text-decoration: underline;
+}
+
+.botones{
+    margin-left: 15px;
+}
+
+footer {
+    margin-top: 267px;
+}
